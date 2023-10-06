@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.giohang{
+  border-radius: 20px;
+  background: #9ae0f4;
+}
+#ho-ten{
+  width: 30%;
+}
+h1{
+  color:red;
+}
+.thanhtoan{
+  border-radius: 20px;
+  background: #9ae0f4;
+}
+#mua-hang{
+  margin: 1% 0% 2% 1%;
+}
+#thanh-toan{
+  margin: 1% 0% 2% 1%;
+}
+#dia-chi{
+  width: 30%;
+}
+
+#dien-thoai{
+  width: 30%;
+}
+
+.cap-xoa{
+  display: inline-flex;
+}
+
+form{
+  margin-left: 1%;
+}
+
+#a
+{
+  background-color: #3b5998;
+}
+#b
+{
+  background-color: #55acee;
+}
+#c
+{
+  background-color: #dd4b39;
+}
+#d
+{
+  background-color: #ac2bac;
+}
+#e
+{
+  background-color: #0082ca;
+}
+#g
+{
+  background-color: #333333;
+}
+.text-center.text-center.p-3{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.carousel-inner {
+  height: 550px;
+  width: auto;
+  margin: 5px;
+  border-radius: 20px;
+}
+.d-block.w-100
+{
+  height: 550px;
+  width: 100%;
+}
+img
+{
+  height: 350px;
+  width: 240px;
+  
+}
+.product{
+  height: 500px;
+  margin: 1% 1% 1% 2.5%;
+  padding:1% 2%;
+  border: 2px  solid rgb(4, 0, 255);
+  width: 21%;
+  border-radius: 20px;
+}
+#products{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-white{
+  text-decoration:none;
+  color: #dd4b39;
+}
+.ten-loai-san-pham
+{
+  margin-top: 40px;
+  background: #e84d05;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn.btn-danger{
+  margin-right: 3px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
